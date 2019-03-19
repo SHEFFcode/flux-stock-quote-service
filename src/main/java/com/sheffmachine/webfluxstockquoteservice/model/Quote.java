@@ -1,5 +1,6 @@
 package com.sheffmachine.webfluxstockquoteservice.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -7,6 +8,7 @@ import java.math.MathContext;
 import java.time.Instant;
 
 @Data
+@AllArgsConstructor
 public class Quote {
     private static final MathContext MATH_CONTEXT = new MathContext(2);
 
